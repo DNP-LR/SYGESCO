@@ -1,0 +1,139 @@
+<div class="grid-container">
+  <!-- <h1 class="mat-h1">Dashboard</h1> -->
+  <mat-grid-list cols="2" rowHeight="350px">
+    <!-- <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>
+            {{card.title}}
+            <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu" xPosition="before">
+              <button mat-menu-item>Expand</button>
+              <button mat-menu-item>Remove</button>
+            </mat-menu>
+          </mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="dashboard-card-content">
+          <div>Card Content Here</div>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>-->
+     <!--------------- DEBUT ETUDIANTS----------------------------- -->
+
+     <div class="date">
+      <input type="date">
+    </div>
+    <div class="insights">
+
+    <!--------------- DEBUT ETUDIANTS----------------------------- -->
+
+    <div class="etudiants">
+      <p>Etudiants</p>
+      <img src="/assets/image/student.png">
+      <div class="middle">
+        <div class="left">
+          <h3>Total etudiants</h3>
+        </div>
+        <div class="progress">
+          <svg>
+            <circle cx="38" cy="38" r="36"></circle>
+          </svg>
+          <div class="number">
+            <p>81%</p>
+          </div>
+        </div>
+      </div>
+      <small class="text-muted">800 etudiants</small>
+    </div>
+    <!-- ----------------------FIN ETUDIANT------------------------- -->
+    <div class="enseignants">
+      <p>Enseignants</p>
+      <img src="/assets/image/teach.png">
+      <div class="middle">
+        <div class="left">
+          <h3>Total enseignants</h3>
+        </div>
+        <div class="progress">
+          <svg>
+            <circle cx="38" cy="38" r="36"></circle>
+          </svg>
+          <div class="number">
+            <p>66%</p>
+          </div>
+        </div>
+      </div>
+      <small class="text-muted">50 enseignants</small>
+    </div>
+    <!------------------------- FIN ENSEIGNENTS----------------------------- -->
+    <div class="utilisateurs">
+      <p>Utilisateurs</p>
+      <img src="/assets/image/user.png">
+      <div class="middle">
+        <div class="left">
+          <h3>Total utilisateurs</h3>
+        </div>
+        <div class="progress">
+          <svg>
+            <circle cx="38" cy="38" r="36"></circle>
+          </svg>
+          <div class="number">
+            <p>44%</p>
+          </div>
+        </div>
+      </div>
+      <small class="text-muted">10000 Utilisateurs</small>
+    </div>
+  </div>
+<!-- ----------------------FIN UTILISATEUR------------------------- -->
+
+<!-- Nouveau tilisateur -->
+<div class="utilisateur_recent">
+  <h2>UTILISATEUR RECENT</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>id_utilisateur</th>
+        <th>nom_utilisateur</th>
+        <th>email</th>
+        <th>mot de passe</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>admin</td>
+        <td>admin@gmail.com</td>
+        <td>ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>ange</td>
+        <td>ange@gmail.com</td>
+        <td>ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>ange</td>
+        <td>ange@gmail.com</td>
+        <td>ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>ange</td>
+        <td>ange@gmail.com</td>
+        <td>ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>ange</td>
+        <td>ange@gmail.com</td>
+        <td>ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</mat-grid-list>
+</div>
